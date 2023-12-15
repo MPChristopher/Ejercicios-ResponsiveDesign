@@ -1,0 +1,18 @@
+.Fondo{
+    --background: rgb(32, 32, 32);
+}
+.Card{
+    --background: #d33939;
+    --color: #9efff0;
+    ion-card-title {
+       --color: #52ffe4;
+    }  
+    ion-card-subtitle {
+        --color: #d1fff8;
+    }
+    }      
+@media screen and (max-width: 400px) {
+    .Card {
+        --background: #362323;
+    }
+}
